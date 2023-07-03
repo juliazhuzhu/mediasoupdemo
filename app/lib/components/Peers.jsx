@@ -27,9 +27,9 @@ const Peers = ({ peers, activeSpeakerId }) =>
 
 								</div>
 							</Appear>
-							{peer.consumers.length === 3 && <Appear key='sharingWindow' duration={1000} >
-								<div
-									className={classnames('peer-container eer-container2222', {
+							{peer.sendingContent && <Appear key='sharingWindow' duration={1000} >
+								<div style={{width : "780px",height: "440px"}}
+									className={classnames('peer-container peer-video-content', {
 										'active-speaker' : peer.id === activeSpeakerId
 									})}
 								>

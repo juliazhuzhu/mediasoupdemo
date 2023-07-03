@@ -206,6 +206,14 @@ export const setPeerDisplayName = (displayName, peerId) =>
 	};
 };
 
+export const setPeerContentSending = (sendingContent, peerId) =>
+{
+	return {
+		type    : 'SET_PEER_CONTENT_SENDING',
+		payload : { sendingContent, peerId }
+	};
+};
+
 export const addConsumer = (consumer, peerId) =>
 {
 	return {

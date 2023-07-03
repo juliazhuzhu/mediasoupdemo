@@ -44,6 +44,20 @@ const peers = (state = initialState, action) =>
 			return { ...state, [newPeer.id]: newPeer };
 		}
 
+		case 'SET_PEER_CONTENT_SENDING':
+		{
+			const { sendingContent, peerId } = action.payload;
+			const peer = state[peerId];
+
+			if (!peer)
+				throw new Error('no Peer found');
+
+			const newPeer = { ...peer, sendingContent };
+
+			return { ...state, [newPeer.id]: newPeer };
+
+		}
+
 		case 'ADD_CONSUMER':
 		{
 			const { consumer, peerId } = action.payload;

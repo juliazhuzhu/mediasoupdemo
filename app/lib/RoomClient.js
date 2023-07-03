@@ -399,6 +399,9 @@ export default class RoomClient
 							},
 							peerId));
 
+						store.dispatch(
+							stateActions.setPeerContentSending(consumer.type === 'share', peerId));
+
 						// We are ready. Answer the protoo request so the server will
 						// resume this Consumer (which was paused for now if video).
 						accept();
@@ -695,6 +698,8 @@ export default class RoomClient
 					store.dispatch(
 						stateActions.removeConsumer(consumerId, peerId));
 
+					store.dispatch(
+						stateActions.setPeerContentSending(false, peerId));
 					break;
 				}
 

@@ -1,0 +1,354 @@
+http://…/js/antiglobal.jsFailed to load resource: the server responded with a status of 404 (Not Found)
+index.htmlRefused to execute script from 'http://localhost:63342/resources/js/antiglobal.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.
+react-dom.development.js:25001Download the React DevTools for a better development experience: https://fb.me/react-devtools
+common.js:120mediasoup-demo DOM ready +0ms
+common.js:120mediasoup-demo run() [environment:development] +1ms
+common.js:120mediasoup-demo:RoomClient constructor() [roomId:"lrfsi7v6", peerId:"qf0tpdow", displayName:"Pidove", device:chrome] +0ms
+react-dom.development.js:95Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://fb.me/react-unsafe-component-lifecycles for details. * Move data fetching code or side effects to componentDidUpdate. * If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://fb.me/react-derived-state * Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder. Please update the following components: RIEInput
+react-dom.development.js:95Warning: componentWillUpdate has been renamed, and is not recommended for use. See https://fb.me/react-unsafe-component-lifecycles for details. * Move data fetching code or side effects to componentDidUpdate. * Rename componentWillUpdate to UNSAFE_componentWillUpdate to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder. Please update the following components: PeerView
+common.js:120protoo-client:WebSocketTransport constructor() [url:wss://localhost:4443/?roomId=lrfsi7v6&peerId=qf0tpdow&consumerReplicas=undefined, options:undefined] +0ms
+common.js:120protoo-client:WebSocketTransport _runWebSocket() [currentAttempt:1] +0ms
+common.js:120mediasoup-demo:RoomClient wss://localhost:4443/?roomId=lrfsi7v6&peerId=qf0tpdow&consumerReplicas=undefined +26ms
+common.js:120protoo-client:Peer constructor() +0ms
+common.js:120protoo-client:Peer emit "open" +17ms
+common.js:120mediasoup-demo:RoomClient _joinRoom() +18ms
+common.js:120mediasoup-client:Device constructor() +0ms
+common.js:120mediasoup-client:Device constructor() | detected handler: Chrome111 +1ms
+common.js:120mediasoup-client:Chrome111 close() +0ms
+common.js:120protoo-client:Peer request() [method:getRouterRtpCapabilities,  {"request":true,"id":6973104,"method":"getRouterRtpCapabilities","data":{}}] +3ms
+common.js:120mediasoup-client:Device load() [routerRtpCapabilities:
+Object {codecs: Array(3), headerExtensions: Array(15)}
+] +2ms
+common.js:120mediasoup-client:Chrome111 getNativeRtpCapabilities() +2ms
+common.js:120mediasoup-client:Device load() | got native RTP capabilities:
+Object {codecs: Array(31), headerExtensions: Array(15)}
+ +11ms
+common.js:120mediasoup-client:Device load() | got extended RTP capabilities:
+Object {codecs: Array(2), headerExtensions: Array(11)}
+ +1ms
+common.js:120mediasoup-client:Device load() | got receiving RTP capabilities:
+Object {codecs: Array(3), headerExtensions: Array(8)}
+ +0ms
+common.js:120mediasoup-client:Chrome111 getNativeSctpCapabilities() +12ms
+common.js:120mediasoup-client:Device load() | got native SCTP capabilities:
+Object {numStreams: Object}
+ +1ms
+common.js:120mediasoup-client:Device load() succeeded +0ms
+common.js:120mediasoup-client:Chrome111 close() +0ms
+common.js:120protoo-client:Peer request() [method:createWebRtcTransport,  {"request":true,"id":4585172,"method":"createWebRtcTransport","data":{"forceTcp":false,"producing":true,"consuming":false,"sctpCapabilities":{"numStreams":{"OS":1024,"MIS":1024}}}}] +30ms
+common.js:120mediasoup-client:Device createSendTransport() +18ms
+common.js:120mediasoup-client:Transport constructor() [id:87278e29-d924-48ed-bfbd-762d25a1acf9, direction:send] +0ms
+common.js:120mediasoup-client:Chrome111 run()  +18ms send
+common.js:120mediasoup-client:Chrome111 new RTCPeerConnection  +2ms 
+RTCPeerConnection {localDescription: null, currentLocalDescription: null, pendingLocalDescription: null, remoteDescription: null, currentRemoteDescription: null, ...}
+common.js:120protoo-client:Peer request() [method:createWebRtcTransport,  {"request":true,"id":1550635,"method":"createWebRtcTransport","data":{"forceTcp":false,"producing":false,"consuming":true,"sctpCapabilities":{"numStreams":{"OS":1024,"MIS":1024}}}}] +4ms
+common.js:120mediasoup-client:Device createRecvTransport() +4ms
+common.js:120mediasoup-client:Transport constructor() [id:9dd63302-8378-460e-8ab6-c13f9e712f14, direction:recv] +4ms
+common.js:120mediasoup-client:Chrome111 run()  +3ms recv
+common.js:120mediasoup-client:Chrome111 new RTCPeerConnection  +1ms 
+RTCPeerConnection {localDescription: null, currentLocalDescription: null, pendingLocalDescription: null, remoteDescription: null, currentRemoteDescription: null, ...}
+common.js:120protoo-client:Peer request() [method:join,  {"request":true,"id":454387,"method":"join","data":{"displayName":"Pidove","device":{"flag":"chrome","name":"Chrome","version":"114.0.0.0"},"rtpCapabilities":{"codecs":[{"mimeType":"audio/opus","kind":"audio","preferredPayloadType":100,"clockRate":48000,"channels":2,"parameters":{"minptime":10,"useinbandfec":1},"rtcpFeedback":[{"type":"transport-cc","parameter":""},{"type":"nack","parameter":""}]},{"mimeType":"video/VP8","kind":"video","preferredPayloadType":101,"clockRate":90000,"parameters":{},"rtcpFeedback":[{"type":"goog-remb","parameter":""},{"type":"transport-cc","parameter":""},{"type":"ccm","parameter":"fir"},{"type":"nack","parameter":""},{"type":"nack","parameter":"pli"}]},{"mimeType":"video/rtx","kind":"video","preferredPayloadType":102,"clockRate":90000,"parameters":{"apt":101},"rtcpFeedback":[]}],"headerExtensions":[{"kind":"audio","uri":"urn:ietf:params:rtp-hdrext:sdes:mid","preferredId":1,"preferredEncrypt":false,"direction":"sendrecv"},{"kind":"video","uri":"urn:ietf:params:rtp-hdrext:sdes:mid","preferredId":1,"preferredEncrypt":false,"direction":"sendrecv"},{"kind":"audio","uri":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time","preferredId":4,"preferredEncrypt":false,"direction":"sendrecv"},{"kind":"video","uri":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time","preferredId":4,"preferredEncrypt":false,"direction":"sendrecv"},{"kind":"video","uri":"http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01","preferredId":5,"preferredEncrypt":false,"direction":"sendrecv"},{"kind":"audio","uri":"urn:ietf:params:rtp-hdrext:ssrc-audio-level","preferredId":10,"preferredEncrypt":false,"direction":"sendrecv"},{"kind":"video","uri":"urn:3gpp:video-orientation","preferredId":11,"preferredEncrypt":false,"direction":"sendrecv"},{"kind":"video","uri":"urn:ietf:params:rtp-hdrext:toffset","preferredId":12,"preferredEncrypt":false,"direction":"sendrecv"}]},"sctpCapabilities":{"numStreams":{"OS":1024,"MIS":1024}}}}] +4ms
+common.js:120mediasoup-demo:RoomClient enableMic() +59ms
+common.js:120mediasoup-demo:RoomClient enableMic() | calling getUserMedia() +0ms
+common.js:120mediasoup-demo:RoomClient enableWebcam() +1ms
+common.js:120mediasoup-demo:RoomClient _updateWebcams() +5ms
+common.js:120mediasoup-demo:RoomClient _updateWebcams() | calling enumerateDevices() +0ms
+common.js:120mediasoup-demo:RoomClient proto "request" event [method:newConsumer, data:
+Object {peerId: "ttzqpwfd", producerId: "7d0f5f0a-0afc-4a3d-83be-f0f3448ded03", id: "5789790e-d722-4510-8b9e-862dafbe077e", kind: "audio", rtpParameters: Object, ...}
+] +6ms
+common.js:120mediasoup-client:Transport consume() +34ms
+common.js:120awaitqueue push() [name:transport.createPendingConsumers()] +0ms
+common.js:120awaitqueue execute() [name:transport.createPendingConsumers()] +1ms
+common.js:120mediasoup-client:Chrome111 receive() [trackId:5789790e-d722-4510-8b9e-862dafbe077e, kind:audio] +34ms
+common.js:120mediasoup-client:Chrome111 receive() | calling pc.setRemoteDescription() [offer:
+Object {type: "offer", sdp: "v=0\r\no=mediasoup-client 10000 1 IN IP4 0.0.0.0\r\ns=…name:rHVwq1sqku2+iDhO\r\na=rtcp-mux\r\na=rtcp-rsize\r\n"}
+] +2ms
+common.js:120mediasoup-demo:RoomClient proto "request" event [method:newConsumer, data:
+Object {peerId: "ttzqpwfd", producerId: "f5bebf6d-bc55-4905-8a12-49866c1d1c37", id: "c7c8efc7-551d-408e-91ec-8666c4b366ee", kind: "video", rtpParameters: Object, ...}
+] +6ms
+common.js:120mediasoup-client:Transport consume() +5ms
+common.js:120mediasoup-demo:RoomClient proto "request" event [method:newDataConsumer, data:
+Object {peerId: "ttzqpwfd", dataProducerId: "040e3bff-bdf7-446b-b0bc-fe51ddedba71", id: "2b3402f1-c50d-4592-a768-b3f68471df90", sctpStreamParameters: Object, label: "chat", ...}
+] +0ms
+common.js:120mediasoup-client:Transport consumeData() +1ms
+common.js:120awaitqueue push() [name:transport.consumeData()] +4ms
+common.js:120mediasoup-demo:RoomClient proto "request" event [method:newDataConsumer, data:
+Object {peerId: null, dataProducerId: "088d8d8e-1d0e-4d2e-8614-65a6d508a306", id: "f59524ec-6b10-4a44-9bdc-ef5323d5c0c1", sctpStreamParameters: Object, label: "bot", ...}
+] +2ms
+common.js:120mediasoup-client:Transport consumeData() +1ms
+common.js:120awaitqueue push() [name:transport.consumeData()] +2ms
+common.js:120mediasoup-demo:RoomClient _updateWebcams() [webcams:
+Array(1) [InputDeviceInfo]
+] +1ms
+common.js:120mediasoup-demo:RoomClient enableWebcam() | calling getUserMedia() +4ms
+common.js:120mediasoup-client:RemoteSdp updateDtlsRole() [role:server] +0ms
+common.js:120protoo-client:Peer request() [method:connectWebRtcTransport,  {"request":true,"id":5538264,"method":"connectWebRtcTransport","data":{"transportId":"9dd63302-8378-460e-8ab6-c13f9e712f14","dtlsParameters":{"role":"client","fingerprints":[{"algorithm":"sha-256","value":"C7:22:59:9A:77:0B:3A:B4:BB:64:A9:47:16:F1:D1:48:8F:67:CB:D6:52:1E:C9:3E:E9:CE:E8:5E:21:5F:C8:45"}]}}}] +48ms
+common.js:120mediasoup-client:Transport produce() [track:
+MediaStreamTrack {kind: "audio", id: "67a0b571-0309-4787-ab45-ed82d2842ef8", label: "默认", enabled: true, muted: false, ...}
+] +11ms
+common.js:120awaitqueue push() [name:transport.produce()] +10ms
+common.js:120awaitqueue execute() [name:transport.produce()] +0ms
+common.js:120mediasoup-client:Chrome111 send() [kind:audio, track.id:67a0b571-0309-4787-ab45-ed82d2842ef8] +15ms
+common.js:120mediasoup-client:Chrome111 receive() | calling pc.setLocalDescription() [answer:
+Object {type: "answer", sdp: "v=0\r\no=- 4441158784354393907 2 IN IP4 127.0.0.1\r\ns…:21:5F:C8:45\r\na=ice-options:trickle\r\na=rtcp-mux\r\n"}
+] +2ms
+common.js:120mediasoup-client:RemoteSdp updateDtlsRole() [role:server] +6ms
+common.js:120protoo-client:Peer request() [method:connectWebRtcTransport,  {"request":true,"id":4142823,"method":"connectWebRtcTransport","data":{"transportId":"87278e29-d924-48ed-bfbd-762d25a1acf9","dtlsParameters":{"role":"client","fingerprints":[{"algorithm":"sha-256","value":"00:62:74:35:7D:FE:95:78:88:C9:43:0F:49:B2:72:7C:78:8A:46:BA:27:4A:CB:23:82:CC:F2:D5:70:E3:7E:5A"}]}}}] +7ms
+common.js:120mediasoup-client:Consumer constructor() +0ms
+common.js:120awaitqueue resolving task [name:transport.createPendingConsumers()] +6ms
+common.js:120awaitqueue execute() [name:transport.consumeData()] +0ms
+common.js:120mediasoup-client:Chrome111 receiveDataChannel() [options:
+Object {negotiated: true, id: 0, ordered: false, maxPacketLifeTime: undefined, maxRetransmits: 1, ...}
+] +4ms
+common.js:120mediasoup-client:Chrome111 receiveDataChannel() | calling pc.setRemoteDescription() [offer:
+Object {type: "offer", sdp: "v=0\r\no=mediasoup-client 10000 2 IN IP4 0.0.0.0\r\ns=…on\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"}
+] +0ms
+common.js:120awaitqueue push() [name:transport.createPendingConsumers()] +7ms
+common.js:120mediasoup-client:Chrome111 send() | calling pc.setLocalDescription() [offer:
+RTCSessionDescription {type: "offer", sdp: "v=0\r\no=- 2402296675796270834 2 IN IP4 127.0.0.1\r\ns…ce3b0122ad 67a0b571-0309-4787-ab45-ed82d2842ef8\r\n"}
+] +8ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:consumerScore, data:
+Object {consumerId: "5789790e-d722-4510-8b9e-862dafbe077e", score: Object}
+] +28ms
+common.js:120mediasoup-client:Chrome111 send() | calling pc.setRemoteDescription() [answer:
+Object {type: "answer", sdp: "v=0\r\no=mediasoup-client 10000 1 IN IP4 0.0.0.0\r\ns=…-options:renomination\r\na=rtcp-mux\r\na=rtcp-rsize\r\n"}
+] +19ms
+common.js:120mediasoup-client:Chrome111 receiveDataChannel() | calling pc.setRemoteDescription() [answer:
+RTCSessionDescription {type: "answer", sdp: "v=0\r\no=- 4441158784354393907 3 IN IP4 127.0.0.1\r\ns…el\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"}
+] +2ms
+common.js:120mediasoup-client:Transport connection state changed to connecting +37ms
+common.js:120mediasoup-client:Transport connection state changed to connected +0ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:downlinkBwe, data:
+Object {desiredBitrate: 0, effectiveDesiredBitrate: 0, availableBitrate: 1000000}
+] +20ms
+common.js:120mediasoup-demo:RoomClient 'downlinkBwe' event:
+Object {desiredBitrate: 0, effectiveDesiredBitrate: 0, availableBitrate: 1000000}
+ +0ms
+common.js:120protoo-client:Peer request() [method:produce,  {"request":true,"id":8353677,"method":"produce","data":{"transportId":"87278e29-d924-48ed-bfbd-762d25a1acf9","kind":"audio","rtpParameters":{"codecs":[{"mimeType":"audio/opus","payloadType":111,"clockRate":48000,"channels":2,"parameters":{"minptime":10,"useinbandfec":1,"sprop-stereo":1,"usedtx":1},"rtcpFeedback":[{"type":"transport-cc","parameter":""},{"type":"nack","parameter":""}]}],"headerExtensions":[{"uri":"urn:ietf:params:rtp-hdrext:sdes:mid","id":4,"encrypt":false,"parameters":{}},{"uri":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time","id":2,"encrypt":false,"parameters":{}},{"uri":"http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01","id":3,"encrypt":false,"parameters":{}},{"uri":"urn:ietf:params:rtp-hdrext:ssrc-audio-level","id":1,"encrypt":false,"parameters":{}}],"encodings":[{"ssrc":3044629319,"dtx":false}],"rtcp":{"cname":"4JRVq8MKNIWg4Toc","reducedSize":true},"mid":"0"},"appData":{}}}] +38ms
+common.js:120mediasoup-client:DataConsumer constructor() +0ms
+common.js:120awaitqueue resolving task [name:transport.consumeData()] +32ms
+common.js:120awaitqueue execute() [name:transport.consumeData()] +0ms
+common.js:120mediasoup-client:Chrome111 receiveDataChannel() [options:
+Object {negotiated: true, id: 1, ordered: true, maxPacketLifeTime: undefined, maxRetransmits: undefined, ...}
+] +9ms
+common.js:120mediasoup-client:DataConsumer constructor() +1ms
+common.js:120awaitqueue resolving task [name:transport.consumeData()] +1ms
+common.js:120awaitqueue execute() [name:transport.createPendingConsumers()] +0ms
+common.js:120mediasoup-client:Chrome111 receive() [trackId:c7c8efc7-551d-408e-91ec-8666c4b366ee, kind:video] +1ms
+common.js:120mediasoup-client:Chrome111 receive() | calling pc.setRemoteDescription() [offer:
+Object {type: "offer", sdp: "v=0\r\no=mediasoup-client 10000 3 IN IP4 0.0.0.0\r\ns=…D 373077300 373077301\r\na=rtcp-mux\r\na=rtcp-rsize\r\n"}
+] +0ms
+common.js:120mediasoup-client:DataConsumer DataChannel "open" event +5ms
+common.js:120mediasoup-demo:RoomClient DataConsumer "open" event +10ms
+common.js:120mediasoup-client:Producer constructor() +0ms
+common.js:120awaitqueue resolving task [name:transport.produce()] +6ms
+common.js:120mediasoup-client:DataConsumer DataChannel "open" event +4ms
+common.js:120mediasoup-demo:RoomClient DataConsumer "open" event +3ms
+common.js:120mediasoup-client:Transport connection state changed to connecting +23ms
+common.js:120mediasoup-client:Transport connection state changed to connected +0ms
+common.js:120mediasoup-demo:RoomClient enableChatDataProducer() +6ms
+common.js:120mediasoup-client:Transport produceData() +1ms
+common.js:120awaitqueue push() [name:transport.produceData()] +9ms
+common.js:120awaitqueue execute() [name:transport.produceData()] +1ms
+common.js:120mediasoup-client:Chrome111 sendDataChannel() [options:
+Object {negotiated: true, id: 0, ordered: false, maxPacketLifeTime: undefined, maxRetransmits: 1, ...}
+] +16ms
+common.js:120mediasoup-demo:RoomClient enableBotDataProducer() +3ms
+common.js:120mediasoup-client:Transport produceData() +3ms
+common.js:120awaitqueue push() [name:transport.produceData()] +2ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:producerScore, data:
+Object {producerId: "61b03eb0-82fd-4ae4-9dae-43a77a1b6f60", score: Array(1)}
+] +1ms
+common.js:120mediasoup-client:Chrome111 receive() | calling pc.setLocalDescription() [answer:
+Object {type: "answer", sdp: "v=0\r\no=- 4441158784354393907 4 IN IP4 127.0.0.1\r\ns…a=ice-options:trickle\r\na=rtcp-mux\r\na=rtcp-rsize\r\n"}
+] +12ms
+common.js:120mediasoup-client:Chrome111 sendDataChannel() | calling pc.setLocalDescription() [offer:
+RTCSessionDescription {type: "offer", sdp: "v=0\r\no=- 2402296675796270834 3 IN IP4 127.0.0.1\r\ns…:1\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"}
+] +4ms
+common.js:120mediasoup-client:Consumer constructor() +76ms
+common.js:120mediasoup-client:Chrome111 receive() [trackId:probator, kind:video] +5ms
+common.js:120mediasoup-client:Chrome111 receive() | calling pc.setRemoteDescription() [offer:
+Object {type: "offer", sdp: "v=0\r\no=mediasoup-client 10000 4 IN IP4 0.0.0.0\r\ns=…c:1234 cname:probator\r\na=rtcp-mux\r\na=rtcp-rsize\r\n"}
+] +1ms
+common.js:120mediasoup-client:Chrome111 sendDataChannel() | calling pc.setRemoteDescription() [answer:
+Object {type: "answer", sdp: "v=0\r\no=mediasoup-client 10000 2 IN IP4 0.0.0.0\r\ns=…on\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"}
+] +10ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:consumerScore, data:
+Object {consumerId: "c7c8efc7-551d-408e-91ec-8666c4b366ee", score: Object}
+] +34ms
+common.js:120mediasoup-demo:RoomClient "producedata" event: [sctpStreamParameters:
+Object {streamId: 0, ordered: false, maxPacketLifeTime: undefined, maxRetransmits: 1}
+, appData:
+Object {info: "my-chat-DataProducer"}
+] +11ms
+common.js:120protoo-client:Peer request() [method:produceData,  {"request":true,"id":9842645,"method":"produceData","data":{"transportId":"87278e29-d924-48ed-bfbd-762d25a1acf9","sctpStreamParameters":{"streamId":0,"ordered":false,"maxRetransmits":1},"label":"chat","protocol":"","appData":{"info":"my-chat-DataProducer"}}}] +67ms
+common.js:120mediasoup-client:Chrome111 receive() | calling pc.setLocalDescription() [answer:
+Object {type: "answer", sdp: "v=0\r\no=- 4441158784354393907 5 IN IP4 127.0.0.1\r\ns…a=ice-options:trickle\r\na=rtcp-mux\r\na=rtcp-rsize\r\n"}
+] +28ms
+common.js:120mediasoup-client:DataProducer constructor() +0ms
+common.js:120awaitqueue resolving task [name:transport.produceData()] +65ms
+common.js:120awaitqueue execute() [name:transport.produceData()] +0ms
+common.js:120mediasoup-client:Chrome111 sendDataChannel() [options:
+Object {negotiated: true, id: 1, ordered: false, maxPacketLifeTime: 2000, maxRetransmits: undefined, ...}
+] +7ms
+common.js:120mediasoup-demo:RoomClient "producedata" event: [sctpStreamParameters:
+Object {streamId: 1, ordered: false, maxPacketLifeTime: 2000, maxRetransmits: undefined}
+, appData:
+Object {info: "my-bot-DataProducer"}
+] +19ms
+common.js:120protoo-client:Peer request() [method:produceData,  {"request":true,"id":3860613,"method":"produceData","data":{"transportId":"87278e29-d924-48ed-bfbd-762d25a1acf9","sctpStreamParameters":{"streamId":1,"ordered":false,"maxPacketLifeTime":2000},"label":"bot","protocol":"","appData":{"info":"my-bot-DataProducer"}}}] +20ms
+common.js:120mediasoup-client:Transport createPendingConsumers() | Consumer for RTP probation created +71ms
+common.js:120awaitqueue resolving task [name:transport.createPendingConsumers()] +6ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:consumerLayersChanged, data:
+Object {consumerId: "c7c8efc7-551d-408e-91ec-8666c4b366ee", spatialLayer: 1, temporalLayer: 0}
+] +9ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:consumerScore, data:
+Object {consumerId: "c7c8efc7-551d-408e-91ec-8666c4b366ee", score: Object}
+] +5ms
+common.js:120mediasoup-client:DataProducer constructor() +18ms
+common.js:120awaitqueue resolving task [name:transport.produceData()] +12ms
+common.js:120mediasoup-client:Transport produce() [track:
+MediaStreamTrack {kind: "video", id: "b95f69a9-b356-43ef-ae78-a7dcfff050b2", label: "Integrated Camera (13d3:5406)", enabled: true, muted: false, ...}
+] +20ms
+common.js:120awaitqueue push() [name:transport.produce()] +8ms
+common.js:120awaitqueue execute() [name:transport.produce()] +0ms
+common.js:120mediasoup-client:Chrome111 send() [kind:video, track.id:b95f69a9-b356-43ef-ae78-a7dcfff050b2] +27ms
+common.js:120mediasoup-client:Chrome111 send() | calling pc.setLocalDescription() [offer:
+RTCSessionDescription {type: "offer", sdp: "v=0\r\no=- 2402296675796270834 4 IN IP4 127.0.0.1\r\ns… send\r\na=rid:r3 send\r\na=simulcast:send r1;r2;r3\r\n"}
+] +4ms
+common.js:120mediasoup-client:Chrome111 send() | calling pc.setRemoteDescription() [answer:
+Object {type: "answer", sdp: "v=0\r\no=mediasoup-client 10000 3 IN IP4 0.0.0.0\r\ns=… recv\r\na=rid:r3 recv\r\na=simulcast:recv r1;r2;r3\r\n"}
+] +4ms
+common.js:120protoo-client:Peer request() [method:produce,  {"request":true,"id":4938409,"method":"produce","data":{"transportId":"87278e29-d924-48ed-bfbd-762d25a1acf9","kind":"video","rtpParameters":{"codecs":[{"mimeType":"video/VP8","payloadType":96,"clockRate":90000,"parameters":{},"rtcpFeedback":[{"type":"goog-remb","parameter":""},{"type":"transport-cc","parameter":""},{"type":"ccm","parameter":"fir"},{"type":"nack","parameter":""},{"type":"nack","parameter":"pli"}]},{"mimeType":"video/rtx","payloadType":97,"clockRate":90000,"parameters":{"apt":96},"rtcpFeedback":[]}],"headerExtensions":[{"uri":"urn:ietf:params:rtp-hdrext:sdes:mid","id":4,"encrypt":false,"parameters":{}},{"uri":"urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id","id":10,"encrypt":false,"parameters":{}},{"uri":"urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id","id":11,"encrypt":false,"parameters":{}},{"uri":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time","id":2,"encrypt":false,"parameters":{}},{"uri":"http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01","id":3,"encrypt":false,"parameters":{}},{"uri":"urn:3gpp:video-orientation","id":13,"encrypt":false,"parameters":{}},{"uri":"urn:ietf:params:rtp-hdrext:toffset","id":14,"encrypt":false,"parameters":{}}],"encodings":[{"active":true,"scalabilityMode":"L1T3","scaleResolutionDownBy":4,"maxBitrate":500000,"rid":"r1","dtx":false},{"active":true,"scalabilityMode":"L1T3","scaleResolutionDownBy":2,"maxBitrate":1000000,"rid":"r2","dtx":false},{"active":true,"scalabilityMode":"L1T3","scaleResolutionDownBy":1,"maxBitrate":5000000,"rid":"r3","dtx":false}],"rtcp":{"cname":"","reducedSize":true},"mid":"2"},"appData":{}}}] +36ms
+common.js:120mediasoup-client:Producer constructor() +116ms
+common.js:120awaitqueue resolving task [name:transport.produce()] +13ms
+common.js:120mediasoup-demo:RoomClient _getWebcamType() | it seems to be a front camera +25ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:consumerLayersChanged, data:
+Object {consumerId: "c7c8efc7-551d-408e-91ec-8666c4b366ee", spatialLayer: 1, temporalLayer: 2}
+] +19ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:producerScore, data:
+Object {producerId: "23ea5093-2179-40e3-83c3-262fb3eaa1e6", score: Array(1)}
+] +27ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:producerScore, data:
+Object {producerId: "23ea5093-2179-40e3-83c3-262fb3eaa1e6", score: Array(2)}
+] +4ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:activeSpeaker, data:
+Object {peerId: "qf0tpdow", volume: -59}
+] +141ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:downlinkBwe, data:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 1076017}
+] +735ms
+common.js:120mediasoup-demo:RoomClient 'downlinkBwe' event:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 1076017}
+ +0ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:activeSpeaker, data:
+Object {peerId: "qf0tpdow", volume: -54}
+] +65ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:activeSpeaker, data:
+Object {peerId: "qf0tpdow", volume: -54}
+] +800ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:downlinkBwe, data:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 1134090}
+] +136ms
+common.js:120mediasoup-demo:RoomClient 'downlinkBwe' event:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 1134090}
+ +0ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:activeSpeaker, data:
+Object {peerId: "qf0tpdow", volume: -54}
+] +665ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:downlinkBwe, data:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 1184502}
+] +338ms
+common.js:120mediasoup-demo:RoomClient 'downlinkBwe' event:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 1184502}
+ +0ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:activeSpeaker, data:
+Object {peerId: "qf0tpdow", volume: -54}
+] +461ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:downlinkBwe, data:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 1236627}
+] +542ms
+common.js:120mediasoup-demo:RoomClient 'downlinkBwe' event:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 1236627}
+ +0ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:activeSpeaker, data:
+Object {peerId: "qf0tpdow", volume: -49}
+] +259ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:downlinkBwe, data:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 1284746}
+] +743ms
+common.js:120mediasoup-demo:RoomClient 'downlinkBwe' event:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 1284746}
+ +0ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:activeSpeaker, data:
+Object {peerId: "qf0tpdow", volume: -54}
+] +57ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:activeSpeaker, data:
+Object {peerId: "qf0tpdow", volume: -53}
+] +799ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:downlinkBwe, data:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 1387526}
+] +144ms
+common.js:120mediasoup-demo:RoomClient 'downlinkBwe' event:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 1387526}
+ +0ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:activeSpeaker, data:
+Object {peerId: "qf0tpdow", volume: -52}
+] +657ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:downlinkBwe, data:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 1407748}
+] +347ms
+common.js:120mediasoup-demo:RoomClient 'downlinkBwe' event:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 1407748}
+ +0ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:activeSpeaker, data:
+Object {peerId: "qf0tpdow", volume: -52}
+] +452ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:downlinkBwe, data:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 1442626}
+] +550ms
+common.js:120mediasoup-demo:RoomClient 'downlinkBwe' event:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 1442626}
+ +1ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:activeSpeaker, data:
+Object {peerId: "qf0tpdow", volume: -53}
+] +249ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:downlinkBwe, data:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 1442626}
+] +750ms
+common.js:120mediasoup-demo:RoomClient 'downlinkBwe' event:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 1442626}
+ +1ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:activeSpeaker, data:
+Object {peerId: "qf0tpdow", volume: -54}
+] +50ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:activeSpeaker, data:
+Object {peerId: "qf0tpdow", volume: -49}
+] +800ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:downlinkBwe, data:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 1505119}
+] +154ms
+common.js:120mediasoup-demo:RoomClient 'downlinkBwe' event:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 1505119}
+ +0ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:activeSpeaker, data:
+Object {peerId: "qf0tpdow", volume: -50}
+] +647ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:downlinkBwe, data:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 4477333}
+] +77ms
+common.js:120mediasoup-demo:RoomClient 'downlinkBwe' event:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 4477333}
+ +0ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:activeSpeaker, data:
+Object {peerId: "qf0tpdow", volume: -55}
+] +722ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:downlinkBwe, data:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 6750000}
+] +277ms
+common.js:120mediasoup-demo:RoomClient 'downlinkBwe' event:
+Object {desiredBitrate: 5000000, effectiveDesiredBitrate: 5000000, availableBitrate: 6750000}
+ +1ms
+common.js:120mediasoup-demo:RoomClient proto "notification" event [method:activeSpeaker, data:
+Object {peerId: "qf0tpdow", volume: -55}
+] +522ms
